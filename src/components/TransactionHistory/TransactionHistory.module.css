@@ -1,0 +1,32 @@
+.table {
+    width: 340px;
+    margin-top: 50px;
+    background-color: white;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-collapse: collapse;
+}
+
+.title,
+.value {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid darkgrey;
+}
+
+.title {
+    background-color: lightgrey;
+}
+
+.item {
+    text-transform: capitalize;
+}
+
+.item:nth-of-type(even) {
+    background-color: whitesmoke;
+}
+
+
+.item:hover {
+    background-color: grey;
+}
